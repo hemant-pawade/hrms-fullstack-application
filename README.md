@@ -296,7 +296,34 @@ hrms/
 - CORS configuration
 - Environment variable protection
 
-## 🚀 Production Deployment
+## 🚀 Vercel Deployment (Recommended)
+
+### Quick Deploy to Vercel
+
+**See detailed guides:**
+- 📖 **[VERCEL_DEPLOYMENT.md](VERCEL_DEPLOYMENT.md)** - Complete step-by-step guide
+- ⚡ **[QUICK_DEPLOY.md](QUICK_DEPLOY.md)** - 5-minute deployment
+- 📋 **[DEPLOYMENT_STEPS.txt](DEPLOYMENT_STEPS.txt)** - Visual flowchart
+
+**Quick Start:**
+```bash
+# Install Vercel CLI
+npm install -g vercel
+
+# Deploy backend
+cd backend
+vercel --prod
+
+# Deploy frontend
+cd ../frontend
+vercel --prod
+```
+
+**Database:** Use [Neon](https://neon.tech) for free PostgreSQL hosting.
+
+---
+
+## 🚀 Alternative Deployment Options
 
 ### Backend Deployment (Heroku/Render/Railway)
 
